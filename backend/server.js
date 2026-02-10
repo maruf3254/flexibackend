@@ -39,7 +39,7 @@ App.listen(port, () => {
   console.log("server listening !");
 });
 
-const allowedOrigins = ["http://localhost:5173" , "http://localhost:5174"]; // Add allowed origins here
+const allowedOrigins = ["http://localhost:5173" , "https://flexikar.com" ]; // Add allowed origins here
 
 App.use(
   cors({
